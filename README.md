@@ -1,5 +1,14 @@
 # **PowerBI-AdventureWorks-Sales-Analysis**
  Description:- This repo will contain the sales analysis dashboard for the adventure works fictional company's sales data
+## **PowerBI Dashboard**
+This project is a Sales Management Dashboard for AdventureWorks, a fictional bike company created by Microsoft. The dashboard is built using Power BI and SQL Server, leveraging the AdventureWorksDW2019 sample database.
+
+![Sales_Overview](Images/PowerBI_Images/PB_2_Sales_Overview.jpg)
+
+![Customer_Overview
+](Images/PowerBI_Images/PB_3_Customer_Overview.jpg)
+
+![Product Overview](Images/PowerBI_Images/PB_4_Product_Overview.jpg)
 
 ## **Background**
 
@@ -40,7 +49,7 @@ Execute the below SQL scripts to create views in PowerBI_Reporting Database usin
 
 To create the necessary data model for doing analysis and fulfilling the business needs defined the above views were extracted using SQL in
 
-## **Power BI Dashboard:**
+## **Power BI Installation:**
 
 Download and Launch Power BI Desktop from the Microsoft Store or the official website.\
 https://www.microsoft.com/en-us/download/details.aspx?id=58494
@@ -51,5 +60,13 @@ You can also download the Power BI Desktop from the Microsoft Store on Windows 1
 
 Once you have Power BI Desktop installed, you can connect to the SQL Server database and import the data from the views we created earlier.
 
+## **Power BI Dashboard:**
+
+Once you import the Views into Power BI, you can start creating your dashboard.\
+Here is the Data Model created in Power BI using the views from the SQL Server database:\
+
+**<ins>Sales Analysis Data Model In PowerBI**
+
+![Power BI Data Model](Images/PowerBI_Images/PB_1_SQL_DataModel.jpg)
 
 
